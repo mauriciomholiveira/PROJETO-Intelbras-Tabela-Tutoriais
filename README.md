@@ -1,59 +1,36 @@
-# Tabela de Transferências Intelbras 🔄
-# Version 1.2
+# Tabela de Tutoriais em Vídeo Intelbras 📹
+## Versão 1.0
 
-Este arquivo README.md contém informações sobre a tabela de transferências da Intelbras, estruturada com os campos de Segmento, Fila, URA, Produto, Suporte, Qualificação ICC e Transferência CHAT.
+Este arquivo README.md contém informações sobre a tabela de tutoriais em vídeo da Intelbras, estruturada com os campos de Produto(s), Título, TAG, Duração e Links.
 
-## Objetivo 🎯
+### Objetivo 🎥
 
-A tabela de transferências da Intelbras visa facilitar o roteamento de chamadas para as filas corretas no ICC e no Talk Blip, bem como fornecer códigos de URA para redirecionar clientes de forma eficiente.
+A tabela de tutoriais em vídeo da Intelbras visa fornecer uma lista organizada de vídeos instrutivos para produtos específicos, permitindo um acesso rápido e eficiente para os usuários interessados.
 
-## Estrutura da Tabela 📋
+### Estrutura da Tabela 📋
 
 A tabela segue a seguinte estrutura:
 
-### 1. Segmento 📑
-Identificação do segmento relacionado ao produto ou serviço.
+| Produto(s)                                  | Título                                             | TAG   | Duração | Links                                |
+|---------------------------------------------|----------------------------------------------------|-------|---------|--------------------------------------|
+| UnniTI 1000                                 | Como realizar o Recover na central UnniTI 1000 - i4218 | i4218 | 03:19   | [Play](https://www.youtube.com/watch?v=RC2durob5Dc) |
+| MSI 50, MSI 55, MSI 100, MSI 200            | Ajuste de DPI nos mouses Intelbras - i1249          | i1249 | 00:39   | [Play](https://www.youtube.com/watch?v=X_SuzuRx7Ok) |
+| AI 1000, AI 2000, AI 3100, AI 2120, AE 4000, AE 4010, AE 5000, AE 5010 | Saiba como funciona as antenas de TV da Intelbras | i1159 | 02:45   | [Play](https://youtu.be/2nVYm_ffXZU) |
+| IZY Speak                                   | Configuração inicial da Izy Speak! Alexa da Intelbras | i1212 | 05:22   | [Play](https://www.youtube.com/watch?v=tB66-5-2s74) |
+| IZY Speak                                   | Ajustando as informações de data e temperatura na Izy Speak! Intelbras Alexa | i1213 | 01:38   | [Play](https://www.youtube.com/watch?v=ALMkp1q7znU) |
+| IZY Speak                                   | Associando o calendário do e-mail na Izy Speak! Intelbras Alexa | i1214 | 01:20   | [Play](https://www.youtube.com/watch?v=CSMc71FVw28) |
+| IZY Speak                                   | Associando skill (IZY Smart) na Alexa da IZY Speak Intelbras | i1216 | 03:25   | [Play](https://www.youtube.com/watch?v=D04l_iLcCmU) |
+| IZY Speak                                   | Como criar uma rotina na Alexa da IZY Speak! Intelbras | i1217 | 05:13   | [Play](https://www.youtube.com/watch?v=8r7SFRbyW1Y) |
+| GKM 2210 T                                 | Configuração de conta no GKM2210T                    | i4159 | 05:31   | [Play](https://www.youtube.com/watch?v=b3mb7JzvP4s) |
 
+### Utilização e Atualização 🔄
 
-### 2. URA 🔊
-Código correspondente à Unidade de Resposta Audível (URA) para redirecionamento eficiente dos clientes em contatos posteriores.
+Para encontrar rapidamente tutoriais específicos, utilize a barra de busca fornecida na tabela HTML. Mantenha a tabela atualizada com novos tutoriais e remova ou atualize informações conforme necessário para garantir a precisão e utilidade da lista de vídeos.
 
-### 3. Produto 📦
-Nome ou identificação do produto ou serviço Intelbras.
+### Contribuições 🤝
 
-### 4. Suporte 🛠️
-Indica disponibilidade de suporte (Sim/Não).
+Se houver necessidade de adicionar novos tutoriais ou fazer correções, siga os procedimentos de contribuição estabelecidos para manter a tabela de tutoriais sempre atualizada e precisa.
 
-### 5. Qualificação ICC 📈
-Informações específicas de qualificação no sistema ICC.
+### Agradecimentos 🙌
 
-### 6. Transferência CHAT 💬
-Indicação de transferência para atendimento via chat.
-
-## Exemplo da Tabela 📊
-
-```markdown
-
-| Segmento  | URA  | Produto      | Suporte | Qualificação ICC      | Transferência CHAT |
-|-----------|------|--------------|---------|-----------------------|--------------------|
-| 0800      | 493  | EWS 101 I    | Sim     | Encam. p/ Varejo Energia | Varejo Energia    |
-| 0800      | 493  | EWS 201 E    | Sim     | Encam. p/ Varejo Energia | Varejo Energia    |
-| ALARMES   | 454  | AMT 1004 RF  | Sim     | Encam. p/ Alarmes    | Segurança MG       |
-| ALARMES   | 454  | AMT 1016 NET | Sim     | Encam. p/ Alarmes    | Segurança MG       |
-
-```
-
-## Utilização e Atualização  🔄
-
-Ao receber uma chamada, consulte a tabela usando o segmento, produto ou serviço para identificar a fila adequada tanto no ICC quanto no Talk Blip. Utilize o código de URA correspondente para direcionar clientes para a URA correta em contatos posteriores.
-
-Mantenha a tabela atualizada com informações precisas para garantir o roteamento correto dos clientes e a eficiência do atendimento. Alterações ou atualizações devem seguir os procedimentos estabelecidos pela equipe responsável.
-
-## Contribuições 🤝
-
-Se encontrar necessidade de correções ou melhorias, sinta-se à vontade para propor alterações seguindo os procedimentos de contribuição estabelecidos.
-
-## Agradecimentos 🙌
-
-Agradecemos a todos os colaboradores envolvidos na manutenção e atualização desta tabela, contribuindo para uma experiência de atendimento mais eficaz e satisfatória para os clientes.
-
+Agradecemos a todos os colaboradores que contribuíram na criação e atualização desta tabela de tutoriais em vídeo, proporcionando recursos úteis e valiosos para os usuários interessados nos produtos Intelbras.
