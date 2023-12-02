@@ -1,19 +1,25 @@
 $(document).ready(function () {
   function search(separador) {
     $("#busca").keyup(function () {
-      var index = $(this).index();
-      var nth = "#frontEndSearch tbody td:nth-child(1)"; // Mude para o índice da coluna do Produto
       var valor = $(this).val().toUpperCase();
       var palavras = $.trim(valor).replace(new RegExp((separador + '+'), 'g'), separador).split(separador);
-      $("#frontEndSearch tbody tr").show();
-      $(nth).each(function () {
-        var td = this;
+      $("#frontEndSearch tbody tr").hide(); // Esconda todas as linhas
+
+      $("#frontEndSearch tbody td").each(function () {
+        var cellText = $(this).text().toUpperCase();
+        var cellMatches = true;
+
         $(palavras).each(function () {
           var palavra = this;
-          if ($(td).text().toUpperCase().indexOf(palavra) < 0) {
-            $(td).parent().hide();
+          if (cellText.indexOf(palavra) < 0) {
+            cellMatches = false;
+            return false; // Sair do loop each se a palavra não for encontrada nesta célula
           }
         });
+
+        if (cellMatches) {
+          $(this).parent().show(); // Mostrar a linha se houver correspondência na célula
+        }
       });
     });
   }
